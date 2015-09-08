@@ -7,6 +7,10 @@ function theme_enqueue_styles() {
     wp_enqueue_style('child_style'); // Enqueue it!
 }
 
+function assets(){
+    return get_stylesheet_directory_uri().'/assets';
+}
+
 /*
 * Your functions goes here...
 */
